@@ -1,0 +1,12 @@
+[package]
+name = "mongodb-init"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.96"
+chrono = "0.4.36"
+futures = "0.3.30"
+mongodb = "3.2.1"
+serde_json = "1.0.139"
+tokio = { version = "1.43.0", features = ["full"] }
